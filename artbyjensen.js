@@ -1,14 +1,14 @@
 //  SCROLL IMAGE FIVE 
 let tl9 = gsap.timeline({
   scrollTrigger: {
-    trigger: ".resume",
+    trigger: "#resume",
 		start: "top bottom",
     end: "top 80%",
 		scrub: 0.5
   }
 });
 
-tl9.fromTo(".sticky-image-item-five", {
+tl9.fromTo("#sticky-image-item-five", {
      width: "5em",
      height: "5em",
      marginRight: "45em",
