@@ -1,3 +1,12 @@
+<script src="https://cdn.jsdelivr.net/gh/runejensencom/artbyjensen/artbyjensen.js"></script>
+<script src="https://runejensen.com/gsap/gsap.min.js"></script>
+<script src="https://runejensen.com/gsap/ScrollTrigger.min.js"></script>
+<script src="https://runejensen.com/gsap/ScrollSmoother.min.js"></script>
+<script src="https://runejensen.com/gsap/Flip.min.js"></script>
+<script>
+
+gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+
 //  SCROLL IMAGE FIVE 
 let tl9 = gsap.timeline({
   scrollTrigger: {
@@ -24,3 +33,5 @@ tl9.fromTo(".sticky-image-item-five", {
      rotation: 90,
      duration: 1,
     });
+
+</script>
