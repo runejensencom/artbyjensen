@@ -23,7 +23,7 @@ tl9.fromTo(".sticky-image-item-five", {
      marginRight: "45em",
      marginTop: "25em",
      rotation: 0,
-     duration: 1,
+     duration: 1
     }, 
     {
      width: "5em",
@@ -31,7 +31,7 @@ tl9.fromTo(".sticky-image-item-five", {
      marginRight: "45em",
      marginTop: "60em",
      rotation: 90,
-     duration: 1,
+     duration: 1
     });
 
 </script>
